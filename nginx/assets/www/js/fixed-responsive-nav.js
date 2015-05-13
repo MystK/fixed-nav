@@ -106,8 +106,10 @@
           }
         });
       }
-      
-      // Close navigation when scrolling
+    }, false);
+    
+    // Close navigation when scrolling
+    window.addEventListener("scroll", function () {
       navigation.close();
     }, false);
 
