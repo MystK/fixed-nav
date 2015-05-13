@@ -1,0 +1,27 @@
+{
+  "name": "fixed-nav",
+  "version": "1.0.0",
+  "description": "To see the source code, open up [fixed-responsive-nav.js](https://github.com/adtile/fixed-nav/blob/master/js/fixed-responsive-nav.js) located under the \"js\" folder. The file should be pretty well commented out to explain what’s happening on each line. If you have any questions or problems, [tweet to us](http://twitter.com/adtileHQ)! This project is built using progressive enhancement and tested to be working on Internet Explorer 6 and up.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0",
+    "gulp-watch": "^4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MystK/fixed-nav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MystK/fixed-nav/issues"
+  },
+  "homepage": "https://github.com/MystK/fixed-nav#readme"
+}
