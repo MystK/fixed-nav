@@ -22,5 +22,9 @@ gulp.task('clean', function (cb) {
   ], cb)
 })
 
+gulp.task('livereload', function () {
+  $.livereload.listen()
+})
+
 //gulp.task('init', ['livereload', 'react', 'backend', 'css', 'styl', 'conf', 'html', 'media', 'scripts'])
 //gulp.task('default', ['init', 'watch', 'koa.js'])
